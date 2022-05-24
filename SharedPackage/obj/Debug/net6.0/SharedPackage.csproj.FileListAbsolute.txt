@@ -1,0 +1,12 @@
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/SharedPackage/bin/Debug/net6.0/SharedPackage.deps.json
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/SharedPackage/bin/Debug/net6.0/SharedPackage.dll
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/SharedPackage/bin/Debug/net6.0/ref/SharedPackage.dll
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/SharedPackage/bin/Debug/net6.0/SharedPackage.pdb
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/SharedPackage/obj/Debug/net6.0/SharedPackage.csproj.AssemblyReference.cache
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/SharedPackage/obj/Debug/net6.0/SharedPackage.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/SharedPackage/obj/Debug/net6.0/SharedPackage.AssemblyInfoInputs.cache
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/SharedPackage/obj/Debug/net6.0/SharedPackage.AssemblyInfo.cs
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/SharedPackage/obj/Debug/net6.0/SharedPackage.csproj.CoreCompileInputs.cache
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/SharedPackage/obj/Debug/net6.0/SharedPackage.dll
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/SharedPackage/obj/Debug/net6.0/ref/SharedPackage.dll
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/SharedPackage/obj/Debug/net6.0/SharedPackage.pdb

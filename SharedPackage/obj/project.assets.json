@@ -11,7 +11,7 @@
     "/Users/zacharyglontz/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "restore": {
       "projectUniqueName": "/Users/zacharyglontz/Desktop/Desktop/dllexample1/SharedPackage/SharedPackage.csproj",
       "projectName": "SharedPackage",
