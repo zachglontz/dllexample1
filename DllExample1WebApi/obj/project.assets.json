@@ -22,6 +22,39 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
+      "Package1/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharedPackage": "1.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Package1.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Package1.dll": {}
+        }
+      },
+      "Package2/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "SharedPackage": "2.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Package2.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Package2.dll": {}
+        }
+      },
+      "SharedPackage/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SharedPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/SharedPackage.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -120,6 +153,39 @@
         "microsoft.openapi.nuspec"
       ]
     },
+    "Package1/1.0.0": {
+      "sha512": "LDEHP2+mSaLOGDemVZMNrpz/g5TVBMFqCQZYBEO+89j6M2c8G/fKM7iQQoOAKaMbXhR0wWAGMh0EHb3uHwlglQ==",
+      "type": "package",
+      "path": "package1/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net6.0/Package1.dll",
+        "package1.1.0.0.nupkg.sha512",
+        "package1.nuspec"
+      ]
+    },
+    "Package2/1.0.0": {
+      "sha512": "Aa1dxzVUQYoB7emEjdQCaxi9hp7ULd6+zLn1GMW6drojuzWXjh5GXP6oZGBPE5xZT9eLuEpoQMxr3pV0zFnM2w==",
+      "type": "package",
+      "path": "package2/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net6.0/Package2.dll",
+        "package2.1.0.0.nupkg.sha512",
+        "package2.nuspec"
+      ]
+    },
+    "SharedPackage/2.0.0": {
+      "sha512": "kvyFypGTtua/ny5Iq8gvlLhMgY3c7X3FxMm2swn/iSwWh/LAArjxEC3/tVEMk3q9O4QAv5iX3hiEQDTvhVwfHA==",
+      "type": "package",
+      "path": "sharedpackage/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net6.0/SharedPackage.dll",
+        "sharedpackage.2.0.0.nupkg.sha512",
+        "sharedpackage.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.2.3": {
       "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
       "type": "package",
@@ -204,6 +270,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Package1 >= 1.0.0",
+      "Package2 >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -220,6 +288,7 @@
       "outputPath": "/Users/zacharyglontz/Desktop/Desktop/dllexample1/DllExample1WebApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "/Users/zacharyglontz/Desktop/Desktop/dllexample1/DllExample1WebApi/NuGet.Config",
         "/Users/zacharyglontz/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
@@ -245,6 +314,14 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Package1": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "Package2": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"

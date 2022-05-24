@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using Package1;
+using Package2;
 
 namespace DllExample1WebApi.Controllers;
 
@@ -19,14 +21,16 @@ public class WeatherForecastController : ControllerBase
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
-    public IEnumerable<WeatherForecast> Get()
+    public void Get()
     {
-        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-        {
-            Date = DateTime.Now.AddDays(index),
-            TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-        })
-        .ToArray();
+        ClassPackage1 classtest = new ClassPackage1();
+        classtest.UseSharedPackageMethod();
+
+        ClassPackage2 classtest2 = new ClassPackage2();
+        classtest2.UseSharedPackageMethod();
+
+        // console output
+        // Hello World version 2
+        // Hello World version 2
     }
 }

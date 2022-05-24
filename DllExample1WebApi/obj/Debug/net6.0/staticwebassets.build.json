@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "toCEIeM9alEvT9rpcDC11qdd6WHpdQ9/kPMZ//sfpU4=",
+  "Source": "DllExample1WebApi",
+  "BasePath": "_content/DllExample1WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

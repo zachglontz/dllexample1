@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "i/z90BTqWlcfMf07UcWbSoSednz4pW781E6uDSCJWGZYTs/XvNsPzbQJh+lZUBOeiNlBtziPJ9eW1sRHT7cAvw==",
+  "dgSpecHash": "tiri2E6c9xom6RQS+Q5szSubnK/HLPIKnGvwuLQUnDkcobR+8AUZ58nPNa1mmYN5BTfQ95fgLIAsAElqnXzNFA==",
   "success": true,
   "projectFilePath": "/Users/zacharyglontz/Desktop/Desktop/dllexample1/DllExample1WebApi/DllExample1WebApi.csproj",
   "expectedPackageFiles": [
     "/Users/zacharyglontz/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/zacharyglontz/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/zacharyglontz/.nuget/packages/package1/1.0.0/package1.1.0.0.nupkg.sha512",
+    "/Users/zacharyglontz/.nuget/packages/package2/1.0.0/package2.1.0.0.nupkg.sha512",
+    "/Users/zacharyglontz/.nuget/packages/sharedpackage/2.0.0/sharedpackage.2.0.0.nupkg.sha512",
     "/Users/zacharyglontz/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/zacharyglontz/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/Users/zacharyglontz/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
