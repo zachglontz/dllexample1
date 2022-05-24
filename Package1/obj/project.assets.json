@@ -1,11 +1,35 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "SharedPackage/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SharedPackage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/SharedPackage.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SharedPackage/1.0.0": {
+      "sha512": "xUXpQGzSxFThpq50nYyEwK6Ft+L60QbYaMwGZRGo/Oydg49ECwII13CYIZ0MdvxIAaZZWFO9xcIvn6XG+8eVAw==",
+      "type": "package",
+      "path": "sharedpackage/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net6.0/SharedPackage.dll",
+        "sharedpackage.1.0.0.nupkg.sha512",
+        "sharedpackage.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "SharedPackage >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/zacharyglontz/.nuget/packages/": {}
@@ -20,12 +44,14 @@
       "outputPath": "/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/NuGet.Config",
         "/Users/zacharyglontz/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "/Users/zacharyglontz/Desktop/Desktop/dllexample1/LocalNugetRepository": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -43,6 +69,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "SharedPackage": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

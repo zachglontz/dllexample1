@@ -10,3 +10,8 @@
 8. dotnet pack
 9. csproj set version 2 & set console log to 2
 10. dotnet pack
+11. Add two nupkg files to "LocalNugetRepository"
+
+12. cd Package1
+13. dotnet build
+14. dotnet nuget add source /Users/zacharyglontz/Desktop/Desktop/dllexample1/LocalNugetRepository --name LocalNugetRepository

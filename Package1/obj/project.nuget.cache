@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/yPq1q1KIrSK2BU2/3i5fyFm3zhm5WGzLWe1cuhJJevxQo5u5/kWP1yZy/ZaSMuxt/hpBfcPOMXTDclcEzKHnA==",
+  "dgSpecHash": "sneXs1v+Kqws0usjGIc+wC1fQZVVnengQe8mrtIDV5eDoGRhS5Y79nrJOIOVVG91Qg40ybNGprvzxt6x16utjg==",
   "success": true,
   "projectFilePath": "/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/Package1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/zacharyglontz/.nuget/packages/sharedpackage/1.0.0/sharedpackage.1.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

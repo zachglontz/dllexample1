@@ -14,12 +14,14 @@
         "outputPath": "/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/NuGet.Config",
           "/Users/zacharyglontz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "/Users/zacharyglontz/Desktop/Desktop/dllexample1/LocalNugetRepository": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "SharedPackage": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

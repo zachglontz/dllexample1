@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Package1/1.0": {
+        "dependencies": {
+          "SharedPackage": "1.0.0"
+        },
+        "runtime": {
+          "Package1.dll": {}
+        }
+      },
+      "SharedPackage/1.0.0": {
+        "runtime": {
+          "lib/net6.0/SharedPackage.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Package1/1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharedPackage/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xUXpQGzSxFThpq50nYyEwK6Ft+L60QbYaMwGZRGo/Oydg49ECwII13CYIZ0MdvxIAaZZWFO9xcIvn6XG+8eVAw==",
+      "path": "sharedpackage/1.0.0",
+      "hashPath": "sharedpackage.1.0.0.nupkg.sha512"
+    }
+  }
+}

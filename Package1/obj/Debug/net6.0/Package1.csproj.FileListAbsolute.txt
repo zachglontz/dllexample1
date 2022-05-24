@@ -1,0 +1,12 @@
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/bin/Debug/net6.0/Package1.deps.json
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/bin/Debug/net6.0/Package1.dll
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/bin/Debug/net6.0/ref/Package1.dll
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/bin/Debug/net6.0/Package1.pdb
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/obj/Debug/net6.0/Package1.csproj.AssemblyReference.cache
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/obj/Debug/net6.0/Package1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/obj/Debug/net6.0/Package1.AssemblyInfoInputs.cache
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/obj/Debug/net6.0/Package1.AssemblyInfo.cs
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/obj/Debug/net6.0/Package1.csproj.CoreCompileInputs.cache
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/obj/Debug/net6.0/Package1.dll
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/obj/Debug/net6.0/ref/Package1.dll
+/Users/zacharyglontz/Desktop/Desktop/dllexample1/Package1/obj/Debug/net6.0/Package1.pdb
