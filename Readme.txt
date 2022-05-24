@@ -15,3 +15,11 @@
 12. cd Package1
 13. dotnet build
 14. dotnet nuget add source /Users/zacharyglontz/Desktop/Desktop/dllexample1/LocalNugetRepository --name LocalNugetRepository
+15. Add nuget configs and add shared package to csproj
+16. create package with nuget pack
+17. add packages to local folder
+
+16. Follow previous step for package 2.
+
+18. install two packages in webapi
+19. Run package methods which use shared package method
