@@ -22,3 +22,8 @@
 
 18. install two packages in webapi
 19. Run package methods which use shared package method
+
+20. https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/versioning
+
+"The assembly version is what the CLR uses at run time to select which version of an assembly to load."
+"Selecting an assembly using versioning only applies to assemblies with a strong name."
